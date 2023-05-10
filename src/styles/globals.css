@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import 'hero.css';
+@import "skills.css";
+@import "show.css";
+
+
+*{
+  --color-g: #65af65;
+}
+
