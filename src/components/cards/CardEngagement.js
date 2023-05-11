@@ -3,7 +3,7 @@ import React from 'react'
 export default function CardEngagement({img, title1, title2, text}) {
   return (
     <div id='cardEngagement'>
-        <div>
+        <div className='py-4 px-4'>
             <img src={img} alt="" /> 
         </div>
         <div>

@@ -11,11 +11,13 @@ export default function Contact() {
                 <img src="" alt="" />
             </div>
             <div id='cc-rs'>
-            <FiTwitter size={32} className='my-4'/>
-            <AiFillLinkedin size={32} className='my-4'/>
-            <AiFillGithub size={32} className='my-4'/>
+                {/*liens vers réseaux sociaux */}
+            <a href=""><FiTwitter size={32} className='my-4'/></a>
+            <a href=""><AiFillLinkedin size={32} className='my-4'/> </a>
+            <a href=""><AiFillGithub size={32} className='my-4'/></a>
             </div>
             <div id='cc-form'>
+                {/* formulaire de contact */}
                 <form>
                     <div className='flex mb-[2rem] space-x-12'>
                         <div>
@@ -23,7 +25,7 @@ export default function Contact() {
                                 <label>Name</label>
                             </div>
                             <div className='my-2'>
-                                <input type="text" className='h-[40px]' />
+                                <input type="text" className='h-[40px] text-black' />
                             </div>
                         </div>
                         <div>
@@ -31,7 +33,7 @@ export default function Contact() {
                                 <label htmlFor="">Email</label>
                             </div>
                             <div className='my-2'>
-                                <input type="email" className='h-[40px]' />
+                                <input type="email" className='h-[40px] text-black' />
                             </div>
                         </div>
                     </div>
@@ -40,7 +42,7 @@ export default function Contact() {
                             <label htmlFor="">Message</label>
                         </div>
                         <div>
-                            <textarea name="message" id="message" className='w-[100%] min-h-[100px]'></textarea>
+                            <textarea name="message" id="message" className='w-[100%] min-h-[100px] text-black'></textarea>
                         </div>
                     </div>
                     <div className='flex justify-center'>
