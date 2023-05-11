@@ -2,10 +2,10 @@ import React from 'react'
 import { AiOutlineCloseCircle } from "react-icons/ai";
 import Link from 'next/link';
 import Card from '../cards/Card';
-import { createClient } from "contentful";
 
-export default function Show(posts) {
 
+export default function Show({posts}) {
+    console.log(posts);
 
     if (typeof window !== 'undefined') {
         //here `window` is available, so `window.document` (or simply `document`) is available too
@@ -34,49 +34,36 @@ export default function Show(posts) {
     return (
     <div id='show'>
     <div id='show_content'>
-        <h2>Take a look at my projects <br/> and see my <span>awesomness</span> </h2>
-        <button id="myBtn">Open Modal</button>{/* bouton pour ouvrir la modale */}
-        
-        <div id="myModal" class="modal">{/* modale */}
-            <div class="modal-content">{/* Modal content */}
-                <span class="close"><AiOutlineCloseCircle/></span>
-                {/* {
-                    posts.map(post=>(
-                    <Link href={`post/${post.fields.slug}`}key={post.sys.id}>
-                    <Card
-                        img={post.fields.featuredImage.fields.file.url}
-                        slug={post.fields.slug}
-                    />
-                    </Link>
-                    ))
-                } */}
+        <div className='flex justify-between mx-2 my-2'>
+            <div id="show_content_text">
+                <h2>Take a look at my projects <br/> and see my <span>awesomness</span> </h2>
+                <button id="myBtn">Open Modal</button>{/* bouton pour ouvrir la modale */}
+            </div>
+            <div>
+                <img src="/img/folder.png" alt="" />
+            </div>
+        </div>
+        <div id="myModal" className="modal">{/* modale */}
+            <div className="modal-content">{/* Modal content */}
+                <span className="close"><AiOutlineCloseCircle/></span>
+                <div id='modale_content_content'>
+                    <h2>My projects</h2>
+                    <div id='posts'>
+                        {
+                        posts.map(post=>(
+                        <Link href={`post/${post.fields.slug}`}key={post.sys.id}>
+                            <Card
+                                img={post.fields.featuredImage.fields.file.url}
+                                slug={post.fields.slug}
+                            />
+                        </Link>
+                        ))
+                        }
+                    </div>
+                </div>
             </div>
         </div>
     </div>
     </div>
     )
 }
-
-export async function getStaticProps(){
-    /* 1. connect to contentful*/
-    const client = createClient({
-        space: process.env.NEXT_PUBLIC_CONTENTFUL_SPACE_ID,
-        accessToken: process.env.NEXT_PUBLIC_CONTENTFUL_ACCESS_TOKEN,
-    }
-    );
-
-    /* 2. Recuperer ma data en cas de success pour le content_type => portfolio */
-    // je limite a 9 posts
-    const data = await client.getEntries({
-        content_type:"portfolio",
-        order:"sys.createdAt",
-        limit: 9,
-    });
-
-    /* 3. on envoie la data dans le props de la page */
-    return{
-        props: {
-        posts: data.items,
-    },
-    };
-    }

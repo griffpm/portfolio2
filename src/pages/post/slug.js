@@ -44,8 +44,8 @@ export async function getStaticProps({params}){
     props:{
         post: post[0],
     },
-    };
-}
+    }; 
+}console.log(post);
 
 export default function Index({post}) {
     console.log("post", post);

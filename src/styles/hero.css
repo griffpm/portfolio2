@@ -36,12 +36,14 @@
     width: 80%;
     color: #ffffff;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     padding: 1rem;
 }
 
 #hero_text img{
     width: 25%;
+    margin-top: 1rem;
 }
 
 #hero_text h1{
