@@ -4,8 +4,8 @@
 @import 'hero.css';
 @import "skills.css";
 @import "show.css";
-
-
+@import 'contact.css';
+@import 'slug.css';
 *{
   --color-g: #65af65;
 }

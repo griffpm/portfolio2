@@ -9,16 +9,22 @@ export default function Skills() {
         <div id='skills_content'>
             <div id='skill_text'>
                 <h2><span>Skills</span> and tools</h2>
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JS</li>
-                    <li>PHP</li>
-                    <li>Symphony</li>
-                    <li>React</li>
-                    <li>NextJS</li>
-                    <li>WordPress</li>
-                </ul>
+                <div id='liste'>
+                    <ul id='l1'>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JS</li>
+                        <li>PHP</li>
+                        
+                    </ul>
+                    <ul id='l2'>
+                        <li>Symphony</li>
+                        <li>React</li>
+                        <li>NextJS</li>
+                        <li>WordPress</li>
+                    </ul>
+                </div>
+                
             </div>
             <div id='skill_img'>
                 <img src="/img/programming.jpg" alt="" />

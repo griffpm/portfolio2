@@ -3,6 +3,7 @@ import Show from '@/components/sections/Show'
 import Skills from '@/components/sections/Skills'
 import React from 'react'
 import { createClient } from "contentful";
+import Contact from '@/components/sections/Contact';
 
 export default function Home({posts}) {
   console.log(posts);
@@ -11,6 +12,7 @@ export default function Home({posts}) {
       <Hero/>
       <Skills/>
       <Show posts={posts} />
+      <Contact />
     </div>
   )
 }

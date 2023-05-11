@@ -1,7 +1,6 @@
 import { createClient } from 'contentful';
 import React from 'react'
 
-
 // 1. connection a contentful
 const client = createClient({
     space: process.env.NEXT_PUBLIC_CONTENTFUL_SPACE_ID,
@@ -45,18 +44,27 @@ export async function getStaticProps({params}){
         post: post[0],
     },
     }; 
-}console.log(post);
+}
 
 export default function Index({post}) {
     console.log("post", post);
-    const {title, tech, featuredImage} = post.fields;
+    const {title, tech, featuredImage, description, developper, createdAt, client} = post.fields;
     return (
-        <div>
+        <div id='slug'>
+          <div id='slug_content'>
+            <img src={featuredImage.fields.file.url} alt={title} className='border-grey-500 border-solid border-2' />
             <h2 >{title}</h2>
-            <img src={featuredImage.fields.file.url} alt={title} />
-            <div>
-                <p>{tech}</p>
+            <div className='flex space-x-8 my-6'>
+              <p>Developpeur: <span className='text-green-400 text-bold ml-4'>{developper}</span></p>
+              <p>Date de mise en ligne: <span className='text-green-400 text-bold ml-4'>{createdAt}</span></p>
+              <p>Nom du client: <span className='text-green-400 text-bold ml-4'>{client}</span></p>
             </div>
+            <div className=' my-4'>
+                <p>Technology / Tools: <span className='text-green-400 text-bold ml-4'>{tech}</span></p>
+            </div>
+            <p>{description}</p>
+          </div>
+            
         </div>
         )
     }

@@ -1,0 +1,19 @@
+#slug{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#slug_content{
+    width: 90%;
+    margin: 3rem 0;
+}
+
+#slug_content h2{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+}

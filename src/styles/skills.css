@@ -19,6 +19,12 @@
     color: #ffffff;
 }
 
+#skill_text #liste{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
 #skill_text h2{
     
     font-size: 2rem;
@@ -33,10 +39,17 @@
     margin-top: 2rem;
 }
 
-#skill_text ul li{
+#skill_text #l1 li{
     color: var(--color-g);
     text-decoration: underline;
     margin-top: 1rem;
+    font-size: 1.5rem;
+}
+#skill_text #l2 li{
+    color: #ffffff;
+    text-decoration: underline;
+    margin-top: 1rem;
+    font-size: 1.5rem;
 }
 
 #skill_img{

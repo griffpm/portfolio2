@@ -1,0 +1,45 @@
+#contact{
+    width: 100vw;
+    background-color: #232323;
+    display: flex;
+    justify-content: center;
+}
+
+#contact_content{
+    width: clamp(320px, 80%, 1500px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 4rem 0;
+}
+
+#cc-text{
+    margin: 2rem 1rem;
+}
+
+#cc-text h2{
+    color: #ffffff;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+#cc-text p{
+    color: gray;
+    font-size: 1.5rem;
+    margin: 2rem 0;
+}
+
+#cc-text p span{
+    color: var(--color-g);
+}
+
+#cc-rs{
+    margin: 3rem 1rem;
+    color: #ffffff;
+
+}
+
+#cc-form{
+    margin: 2rem 1rem;
+    color: #ffffff;
+}
