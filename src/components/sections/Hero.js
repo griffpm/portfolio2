@@ -8,12 +8,8 @@ export default function Hero() {
             <div id='hero_text'>
                 <div>
                     <h1>Hello,<br/> I am <span>Paul</span>, <br/> a baby developer.</h1>
-                    <p>Actualy living in France (and probably always will).</p>
+                    <p>Actualy living in France (and probably always will). I love to laze around.</p>
                     <a href="#contact"><button>Give me work!</button> </a>
-                    
-                </div>
-                <div id='hero_text_img'>
-                    <img src="/img/paul.jpg" alt="photo de paul" />
                 </div>
             </div>
         </div>

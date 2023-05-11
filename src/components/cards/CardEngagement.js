@@ -4,7 +4,7 @@ export default function CardEngagement({img, title1, title2, text}) {
   return (
     <div id='cardEngagement'>
         <div className='py-4 px-4'>
-            <img src={img} alt="" /> 
+            <img src={img} alt="" sizes='40'/> 
         </div>
         <div>
             <h3>{title1}{title2}</h3>

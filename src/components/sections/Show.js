@@ -34,13 +34,13 @@ export default function Show({posts}) {
     return (
     <div id='show'>
     <div id='show_content'>
-        <div className='flex flex-wrap justify-between mx-2 my-2'>
+        <div className='flex flex-wrap justify-around ml-2 my-2'>
             <div id="show_content_text">
                 <h2>Take a look at my projects <br/> and see my <span>awesomness</span> </h2>
                 <button id="myBtn">Open Modal</button>{/* bouton pour ouvrir la modale */}
             </div>
             <div>
-                <img src="/img/folder.png" alt="" />
+                <img src="/img/mosaic.png" alt="" />
             </div>
         </div>
         <div id="myModal" className="modal">{/* modale */}
