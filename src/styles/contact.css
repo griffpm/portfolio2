@@ -1,6 +1,6 @@
 #contact{
     width: 100vw;
-    background-color: #232323;
+    background-color: #14141b;
     display: flex;
     justify-content: center;
 }
@@ -42,5 +42,5 @@
 #cc-form{
     margin: 2rem 1rem;
     color: #ffffff;
-    width: clamp(300px, 90%, 900px);
+    width: clamp(300px, 90%, 430px);
 }

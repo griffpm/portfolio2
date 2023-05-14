@@ -17,7 +17,7 @@ export default function Hero() {
             <img src="/img/bg1.jpg" alt="space and stars" />
         </div>
         <div id="arrow">
-            <MdKeyboardDoubleArrowDown size="100px" /> 
+            <a href="#skills"><MdKeyboardDoubleArrowDown size="100px" /></a> 
         </div>
     </div>
     )

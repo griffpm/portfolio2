@@ -18,14 +18,14 @@ export default function Contact() {
             </div>
             <div id='cc-form'>
                 {/* formulaire de contact */}
-                <form>
+                <form className='max-w-[420px]'>
                     <div className='flex flex-wrap mb-[2rem] space-x-12'>
                         <div>
                             <div className='my-2'>
                                 <label>Name</label>
                             </div>
                             <div className='my-2'>
-                                <input type="text" className='h-[40px] text-black' />
+                                <input type="text" className='h-[40px] text-black bg-[#35353c] border-[1px] border-solid border-[#a7a3a3]' />
                             </div>
                         </div>
                         <div>
@@ -33,7 +33,7 @@ export default function Contact() {
                                 <label htmlFor="">Email</label>
                             </div>
                             <div className='my-2'>
-                                <input type="email" className='h-[40px] text-black' />
+                                <input type="email" className='h-[40px] text-black bg-[#35353c] border-[1px] border-solid border-[#a7a3a3]' />
                             </div>
                         </div>
                     </div>
@@ -42,7 +42,7 @@ export default function Contact() {
                             <label htmlFor="">Message</label>
                         </div>
                         <div>
-                            <textarea name="message" id="message" className='w-[100%] min-h-[100px] text-black'></textarea>
+                            <textarea name="message" id="message" className='w-[100%] min-h-[100px] text-black bg-[#35353c] border-[1px] border-solid border-[#a7a3a3]'></textarea>
                         </div>
                     </div>
                     <div className='flex justify-center'>

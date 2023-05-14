@@ -3,11 +3,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #1d1d25;
 }
 
 #slug_content{
     width: 90%;
     margin: 3rem 0;
+    color: #ffffff;
 }
 
 #slug_content h2{
@@ -25,5 +27,6 @@
     height: fit-content;
     background-color: var(--color-g);
     border-radius: 100%;
+    border: solid 2px #ffffff;
     opacity: 0.7;
 }

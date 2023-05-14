@@ -8,7 +8,8 @@ export default function Skills() {
     <div id='skills'>
         <div id='skills_content'>
             <div id='skill_text'>
-                <h2><span>Skills</span> and Tools:</h2>                
+                <h2><span>Skills</span> and Tools:</h2>
+                <p>For a more <span id='n1'>detailed</span> overview, please feel free to check the tools that were used on <span id='n2'> a per-project basis.</span> </p>
             </div>
             <div id='skill_img'>
                 <img src="/img/spiral.png" alt="" />

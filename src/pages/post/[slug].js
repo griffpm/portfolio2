@@ -60,7 +60,7 @@ export default function Index({post}) {
           <div id='slug_content'>
             <img src={featuredImage.fields.file.url} alt={title} className='border-grey-500 border-solid border-2' />
             <h2 >{title}</h2>
-            <div className='flex space-x-8 my-6 text-[1.5rem]'>
+            <div className='flex flex-wrap space-x-8 my-6 text-[1.5rem]'>
               <p>Developpeur: <span className='text-green-400 text-bold ml-4'>{developper}</span></p>
               <p>Date de mise en ligne: <span className='text-green-400 text-bold ml-4'>{createdAt}</span></p>
               <p>Nom du client: <span className='text-green-400 text-bold ml-4'>{client}</span></p>
