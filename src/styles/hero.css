@@ -6,7 +6,7 @@
 }
 
 #hero #hero_bg_img{
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     z-index: 99;
     position: absolute;
@@ -21,7 +21,7 @@
 }
 
 #hero_content{
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     z-index: 100;
     position: absolute;
