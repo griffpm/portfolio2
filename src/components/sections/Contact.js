@@ -6,14 +6,14 @@ export default function Contact() {
     <div id='contact'>
         <div id='contact_content'>
             <div id='cc-text'>
-                <h2>Let's get in touch!</h2>
-                <p>Either by <span>email </span> or through <br/> my <span>social media.</span></p>
+                <h2>Contactez moi !</h2>
+                <p>Soit par <span>email </span> ou par <br/> mes <span>réseaux.</span></p>
                 <img src="" alt="" />
             </div>
             <div id='cc-rs'>
                 {/*liens vers réseaux sociaux */}
             <a href=""><FiTwitter size={32} className='my-4'/></a>
-            <a href=""><AiFillLinkedin size={32} className='my-4'/> </a>
+            <a href="https://www.linkedin.com/in/paul-menard-202251169/"><AiFillLinkedin size={32} className='my-4'/> </a>
             <a href=""><AiFillGithub size={32} className='my-4'/></a>
             </div>
             <div id='cc-form'>
@@ -22,7 +22,7 @@ export default function Contact() {
                     <div className='flex flex-wrap mb-[2rem] space-x-12'>
                         <div>
                             <div className='my-2'>
-                                <label>Name</label>
+                                <label>Nom</label>
                             </div>
                             <div className='my-2'>
                                 <input type="text" className='h-[40px] text-black bg-[#35353c] border-[1px] border-solid border-[#a7a3a3]' />
@@ -46,7 +46,7 @@ export default function Contact() {
                         </div>
                     </div>
                     <div className='flex justify-center'>
-                        <button className='text-white text-[1rem] border-green-400 border-solid border-[2px] py-2 px-2 '>Message me!</button>
+                        <button className='text-white text-[1rem] border-green-400 border-solid border-[2px] py-2 px-2 '>Envoyez!</button>
                     </div>
                 </form>
             </div>

@@ -7,9 +7,9 @@ export default function Hero() {
         <div id='hero_content'>
             <div id='hero_text'>
                 <div>
-                    <h1>Hello,<br/> I am <span>Paul</span>, <br/> a baby developer.</h1>
-                    <p>Actualy living in France (and probably always will). I love to laze around.</p>
-                    <a href="#contact"><button>Give me work!</button> </a>
+                    <h1>Bonjour,<br/> Je suis <span>Paul</span>, <br/> Un Developpeur Web Junior.</h1>
+                    <p>Je vis actuellemnt en France, en Normandie pour être plus précis.</p>
+                    <a href="#contact"><button>En savoir plus a propos de moi</button> </a>
                 </div>
             </div>
         </div>

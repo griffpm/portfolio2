@@ -36,8 +36,8 @@ export default function Show({posts}) {
     <div id='show_content'>
         <div className='flex flex-wrap justify-between ml-2 h-[100%]'>
             <div id="show_content_text">
-                <h2>Take a look at my projects <br/> and see my <span>awesomness</span> </h2>
-                <button id="myBtn">See More</button>{/* bouton pour ouvrir la modale */}
+                <h2>Jetter un coup d'oeil a mes Projets <br/> et voyez si vous êtes <span>interesser</span> </h2>
+                <button id="myBtn">Voir les Projets</button>{/* bouton pour ouvrir la modale */}
             </div>
             <div id='show_content_img' >
                 <img src="/img/mosaic.png" alt="" />
@@ -47,7 +47,7 @@ export default function Show({posts}) {
             <div className="modal-content">{/* Modal content */}
                 <span className="close"><AiOutlineCloseCircle/></span>
                 <div id='modale_content_content'>
-                    <h2>My projects</h2>
+                    <h2>Mes projets</h2>
                     <div id='posts'>
                         {
                         posts.map(post=>(
