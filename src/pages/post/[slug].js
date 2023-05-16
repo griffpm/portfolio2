@@ -49,7 +49,7 @@ export async function getStaticProps({params}){
 
 export default function Index({post}) {
     // console.log("post", post);
-    const {title, tech, featuredImage, description, developper, createdAt, client} = post.fields;
+    const {title, tech, featuredImage, description, developper, createdAt, client, url} = post.fields;
     // console.log(description);
     return (
         <div id='slug'>
@@ -64,6 +64,7 @@ export default function Index({post}) {
               <p>Developpeur: <span className='text-green-400 text-bold ml-4'>{developper}</span></p>
               <p>Date de mise en ligne: <span className='text-green-400 text-bold ml-4'>{createdAt}</span></p>
               <p>Nom du client: <span className='text-green-400 text-bold ml-4'>{client}</span></p>
+              <p>url du site: <span className='text-green-400 text-bold ml-4'>{url}</span> </p>
             </div>
             <div className=' flex my-4 text-[1.5rem]'>
                 <p>Technology / Tools: </p>
@@ -77,7 +78,6 @@ export default function Index({post}) {
             <p className='text-[1.5rem] text-green-400'>{description}</p>
             </div>
           </div>
-            
         </div>
         )
     }

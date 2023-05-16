@@ -4,6 +4,7 @@ import Skills from '@/components/sections/Skills'
 import React from 'react'
 import { createClient } from "contentful";
 import Contact from '@/components/sections/Contact';
+import Footer from '@/components/sections/Footer';
 
 export default function Home({posts}) {
   // console.log(posts);
@@ -13,6 +14,7 @@ export default function Home({posts}) {
       <Skills/>
       <Show posts={posts} />
       <Contact />
+      <Footer/>
     </div>
   )
 }
@@ -32,7 +34,7 @@ export async function getStaticProps(){
       order:"sys.createdAt",
       limit: 9,
   });
-  console.log(data)
+  // console.log(data)
   /* 3. on envoie la data dans le props de la page */
   return{
       

@@ -49,7 +49,7 @@ export default function Hero() {
                 <div id='modaleHero_content_content'>
                     <h2>A propos de moi</h2>
                     <h3>Mes diplomes</h3>
-                    <div>
+                    <div>{/* liste des formation que j'ai effectuer */}
                         {
                             DataFormations.map((item)=>(
                                 <CardFormation
@@ -61,7 +61,7 @@ export default function Hero() {
                             ))
                         }
                     </div>
-                    <h3 className="mt-12 mb-2">Mes partenariats</h3>
+                    <h3 className="mt-12 mb-2">Mes partenariats</h3>{/* liste des entreprise avec lesquels j'ai deja travailler */}
                     <div>
                         {
                             DataEmployement.map((item)=>(

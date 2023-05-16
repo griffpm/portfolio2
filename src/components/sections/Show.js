@@ -48,10 +48,11 @@ export default function Show({posts}) {
                 <span className="close"><AiOutlineCloseCircle/></span>
                 <div id='modale_content_content'>
                     <h2>Mes projets</h2>
+                    {/* liste des projets */}
                     <div id='posts'>
                         {
                         posts.map(post=>(
-                        <Link href={`post/${post.fields.slug}`}key={post.sys.id}>
+                        <Link target='_blank' href={`post/${post.fields.slug}`}key={post.sys.id}>
                             <Card
                                 img={post.fields.featuredImage.fields.file.url}
                                 slug={post.fields.slug}
