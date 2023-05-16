@@ -5,7 +5,7 @@ import Card from '../cards/Card';
 
 
 export default function Show({posts}) {
-    console.log(posts);
+    // console.log(posts);
 
     if (typeof window !== 'undefined') {
         //here `window` is available, so `window.document` (or simply `document`) is available too
@@ -34,10 +34,10 @@ export default function Show({posts}) {
     return (
     <div id='show'>
     <div id='show_content'>
-        <div className='flex flex-wrap justify-between ml-2 h-[100%]'>
-            <div id="show_content_text">
-                <h2>Jetter un coup d'oeil a mes Projets <br/> et voyez si vous êtes <span>interesser</span> </h2>
-                <button id="myBtn">Voir les Projets</button>{/* bouton pour ouvrir la modale */}
+        <div className='flex flex-wrap justify-between '>
+            <div id='show_content_text'>
+                <h2>Ici vous pouvez découvrir mes projets</h2>
+                <button id='myBtn'>Découvrir</button>
             </div>
             <div id='show_content_img' >
                 <img src="/img/mosaic.png" alt="" />
@@ -55,6 +55,7 @@ export default function Show({posts}) {
                             <Card
                                 img={post.fields.featuredImage.fields.file.url}
                                 slug={post.fields.slug}
+                                
                             />
                         </Link>
                         ))

@@ -48,9 +48,9 @@ export async function getStaticProps({params}){
 }
 
 export default function Index({post}) {
-    console.log("post", post);
+    // console.log("post", post);
     const {title, tech, featuredImage, description, developper, createdAt, client} = post.fields;
-    console.log(description);
+    // console.log(description);
     return (
         <div id='slug'>
           <div id='go_home'>

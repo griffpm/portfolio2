@@ -6,7 +6,7 @@ import { createClient } from "contentful";
 import Contact from '@/components/sections/Contact';
 
 export default function Home({posts}) {
-  console.log(posts);
+  // console.log(posts);
   return (
     <div>
       <Hero/>

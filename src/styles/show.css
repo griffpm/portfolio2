@@ -8,41 +8,40 @@
     #show_content{
         width: 100%;
         margin: 0;
-        ;
-
-        
     }
 
     #show_content_text{
         margin-top: 4rem;
-        margin-left: 10%;
-        
+        margin-left: auto;
+        margin-right: auto;
+        width: clamp(300px, 45%, 900px);
     }
+
 
     #show_content_img{
         height: 100%;
+        width: 320px, 45%, 900px;
     }
 
-    #show-content-img img{
+    #show_content_img img{
         height: 100%;
         object-fit: cover;
     }
 
     #show_content_text h2{
-        font-size: 3rem;
+        font-size: 1.75rem;
         color: #ffffff;
-        margin: 1rem;
+        margin: 1rem 10px;
     }
 
     #show_content_text h2 span{
         color: var(--color-g);
     }
 
-    #show_content_text button{
-        margin-top: 2rem;
-        margin-left: 50%;
-        transform: translateX(-50%);
-        width: 250px;
+    #myBtn{
+        margin: 2rem auto;
+        
+        width: 200px;
         height: 70px;
         border-radius: 25px ;
         font-size: 2rem;
@@ -51,14 +50,12 @@
         color: #ffffff;
     }
 
-
-
 /* The Modal (background) */
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 102; /* Sit on top */
-    left: 5vw;
+    left: 5%;
     top: 5vh;
     width: 90vw; /* Full width */
     /* height: 90vh; Full height */
@@ -82,31 +79,28 @@
     }
 
     #modale_content_content{
+        min-width: 300px;
         color: #ffffff;
         margin: 1rem auto;
-        
-
     }
 
     #modale_content_content h2{
         font-size: 2.5rem;
         font-weight: 600;
-        margin: 2rem;
-        
+        margin: 2rem 0;
     }
 
     #posts{
-        width: clamp(280px, 90%, 1200px);
-        margin: 2rem ;
+        width: clamp(300px, 90%, 1000px);
+        margin: 1rem auto ;
         height: 90%;
         display: flex;
         flex-wrap: wrap;
-        
     }
 
     /*card*/
     #Card_in_Modale{
-        width: 260px;
+        width: 250px;
         height: 260px;
         border: 5px solid var(--color-g);
         margin: 1rem;
@@ -123,6 +117,7 @@
     .close {
     color: #ffffff;
     float: right;
+    margin-left: 30px;
     font-size: 28px;
     font-weight: bold;
     }

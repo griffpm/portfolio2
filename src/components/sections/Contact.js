@@ -19,7 +19,7 @@ export default function Contact() {
             <div id='cc-form'>
                 {/* formulaire de contact */}
                 <form className='max-w-[420px]'>
-                    <div className='flex flex-wrap mb-[2rem] space-x-12'>
+                    <div className='flex flex-wrap justify-between mb-[2rem]'>
                         <div>
                             <div className='my-2'>
                                 <label>Nom</label>
