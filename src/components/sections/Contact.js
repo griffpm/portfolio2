@@ -25,7 +25,7 @@ export default function Contact() {
                                 <label>Nom</label>
                             </div>
                             <div className='my-2'>
-                                <input type="text" className='h-[40px] text-black bg-[#35353c] border-[1px] border-solid border-[#a7a3a3]' />
+                                <input type="text" className='h-[40px] text-white bg-[#35353c] border-[1px] border-solid border-[#a7a3a3]' />
                             </div>
                         </div>
                         <div>
@@ -33,7 +33,7 @@ export default function Contact() {
                                 <label htmlFor="">Email</label>
                             </div>
                             <div className='my-2'>
-                                <input type="email" className='h-[40px] text-black bg-[#35353c] border-[1px] border-solid border-[#a7a3a3]' />
+                                <input type="email" className='h-[40px] text-white bg-[#35353c] border-[1px] border-solid border-[#a7a3a3]' />
                             </div>
                         </div>
                     </div>
@@ -42,7 +42,7 @@ export default function Contact() {
                             <label htmlFor="">Message</label>
                         </div>
                         <div>
-                            <textarea name="message" id="message" className='w-[100%] min-h-[100px] text-black bg-[#35353c] border-[1px] border-solid border-[#a7a3a3]'></textarea>
+                            <textarea name="message" id="message" className='w-[100%] min-h-[100px] text-white bg-[#35353c] border-[1px] border-solid border-[#a7a3a3]'></textarea>
                         </div>
                     </div>
                     <div className='flex justify-center'>

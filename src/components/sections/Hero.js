@@ -32,7 +32,7 @@ export default function Hero() {
             <div id='hero_text'>
                 <div>
                     <h1>Bonjour,<br/> Je suis <span>Paul</span>, <br/> Developpeur Web.</h1>
-                    <p>Je vis actuellemnt en France, en Normandie pour être plus précis.</p>
+                    <p>Je vis actuellement en France, en Normandie pour être plus précis.</p>
                     <button id="myBtnHero">En savoir plus a propos de moi</button>
                 </div>
             </div>
