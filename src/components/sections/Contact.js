@@ -13,7 +13,7 @@ export default function Contact() {
             <div id='cc-rs'>
                 {/*liens vers réseaux sociaux */}
             <a href=""><FiTwitter size={32} className='my-4'/></a>
-            <a href="https://www.linkedin.com/in/paul-menard-202251169/"><AiFillLinkedin size={32} className='my-4'/> </a>
+            <a target='_blank' href="https://www.linkedin.com/in/paul-menard-202251169/"><AiFillLinkedin size={32} className='my-4'/> </a>
             <a href=""><AiFillGithub size={32} className='my-4'/></a>
             </div>
             <div id='cc-form'>
