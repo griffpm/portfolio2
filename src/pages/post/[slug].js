@@ -1,3 +1,4 @@
+import Layout from '@/components/layout/Layout';
 import { createClient } from 'contentful';
 import React from 'react'
 import { AiFillHome } from 'react-icons/ai';
@@ -52,11 +53,8 @@ export default function Index({post}) {
     const {title, tech, featuredImage, description, developper, createdAt, client, url} = post.fields;
     // console.log(description);
     return (
+      <Layout>
         <div id='slug'>
-          <div id='go_home'>
-            <a href="/"><AiFillHome size={40} className='m-4'/></a>
-          </div>
-          
           <div id='slug_content'>
             <img src={featuredImage.fields.file.url} alt={title} className='border-grey-500 border-solid border-2' />
             <h2 >{title}</h2>
@@ -79,5 +77,6 @@ export default function Index({post}) {
             </div>
           </div>
         </div>
+      </Layout>
         )
     }

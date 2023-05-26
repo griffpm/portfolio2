@@ -1,11 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import 'header.css';
 @import 'hero.css';
 @import "skills.css";
 @import "show.css";
 @import 'contact.css';
 @import 'slug.css';
+@import 'moi.css';
 *{
   --color-g: #15876c;
 }

@@ -9,7 +9,7 @@ export default function Skills() {
         <div id='skills_content'>
             <div id='skill_text'>
                 <h2><span>Compétences</span> et Outils:</h2>
-                <p>Pour plus de <span id='n1'>details</span> vous pouvez jetter un coup d'oeil dans la rubrique <a href="#show"><span id='n2'>Projets </span></a> </p>
+                <p>Pour plus de <span id='n1'>details</span> vous pouvez jetter un coup d'oeil dans la rubrique Projets </p>
             </div>
             <div id='skill_img'>
                 <img src="/img/skill.png" alt="" />

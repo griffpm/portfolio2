@@ -29,7 +29,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 #hero_text{
@@ -80,57 +79,3 @@
 #hero_text_img img{
     width: clamp(200px, 100%, 300px);
 }
-
-/*--------------------------------------------------------------*/
-
-/* The Modal (background) */
-#myModalHero {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 102; /* Sit on top */
-    left: 5vw;
-    top: 5vh;
-    width: 90vw; /* Full width */
-    /* height: 90vh; Full height */
-    max-height: 90vh;
-    overflow-y: auto; /*Enable scroll if needed*/
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-    }
-
-  /* Modal Content/Box */
-    #modalHero-content {
-    background-color: #1d1d25;
-    margin: 0 auto; /* 15% from the top and centered */
-    border: 3px solid var(--color-g);
-    width: 100%; /* Could be more or less, depending on screen size */
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    }
-
-    #modaleHero_content_content{
-        color: #ffffff;
-        margin: 1rem auto;
-    }
-
-    #modaleHero_content_content h2{
-        font-size: 2.5rem;
-        font-weight: 600;
-        margin: 2rem;
-    }
-
-  /* The Close Button */
-    #closeHero {
-    color: #ffffff;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-    }
-
-    #closeHero:hover,
-    #closeHero:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-    }
