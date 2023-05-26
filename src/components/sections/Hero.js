@@ -33,16 +33,17 @@ export default function Hero() {
                 <div>
                     <h1>Bonjour,<br/> Je suis <span>Paul</span>, <br/> Developpeur Web.</h1>
                     <p>Je vis actuellement en France, en Normandie pour être plus précis.</p>
+                    <div className="flex flex-wrap space-x-4">
                     <button id="myBtnHero">En savoir plus a propos de moi</button>
+                    <button><a href="#show"> Vers mes Projets</a></button>
+                    </div>
                 </div>
             </div>
         </div>
         <div id='hero_bg_img'>
             <img src="/img/bg1.jpg" alt="space and stars" />
         </div>
-        <div id="arrow">
-            <a href="#skills"><MdKeyboardDoubleArrowDown size="100px" /></a> 
-        </div>
+        
         <div id="myModalHero">{/* modale */}
             <div id="modalHero-content">{/* Modal content */}
                 <button id="closeHero"><AiOutlineCloseCircle/></button>
