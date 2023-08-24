@@ -17,6 +17,7 @@ export default function Contact() {
             <a href=""><AiFillGithub size={32} className='my-4'/></a>
             </div>
             <div id="coordonees">
+                <h2> Mes Coordonnées </h2>
                   <p>Mon Email: menard@gmail.com </p>
                   <p>Mon téléphone: 0* ** ** ** ** </p>
             </div>
