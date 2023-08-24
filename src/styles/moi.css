@@ -11,8 +11,10 @@ h3{
 }
 #degree{
     display: flex;
+    flex-wrap: wrap;
 }
 
 #jobs{
     display: flex;
+    flex-wrap: wrap;
 }
