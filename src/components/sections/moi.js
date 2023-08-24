@@ -7,7 +7,6 @@ import { DataEmployement } from "../data/DataEmployement";
 export default function Moi() {
   return (
     <div id="moi">
-                    <h2>A propos de moi</h2>
                     <h3>Mes diplomes</h3>
                     <div id="degree">{/* liste des formation que j'ai effectuer */}
                         {
