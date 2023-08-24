@@ -13,6 +13,8 @@ export default function Hero() {
                 <div>
                     <h1>Bonjour,<br/> Je suis <span>Paul</span>, <br/> Developpeur Web.</h1>
                     <p>Je vis actuellement en France, en Normandie pour être plus précis.</p>
+                    <p> Je vous invite à découvrir mes projets et prendre connaissance des mes compétences de développeur web.</p>
+                    <p> Je vous souhaite une bonne visite. </p>
                 </div>
             </div>
         </div>
