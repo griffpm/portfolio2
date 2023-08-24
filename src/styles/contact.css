@@ -42,5 +42,15 @@
 }
 
 #coordonees{
-    margin: 1rem;
+    margin: 2rem 1rem;
+}
+#coordonnees h2{
+    color: #ffffff;
+    font-size: 2.5rem;
+    font-weight: 600;  
+}
+#coordonnees p{
+    color: gray;
+    font-size: 1.5rem;
+    margin: 2rem 0;
 }
