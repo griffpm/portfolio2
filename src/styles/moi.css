@@ -4,3 +4,6 @@
     color: #fff;
     padding-bottom: 2rem;
 }
+#degree{
+    display: flex;
+}
