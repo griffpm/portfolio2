@@ -1,6 +1,6 @@
 export const DataFormations = [
     {
-        nom:"Developpeur Integrateur Système Intranet Internet",
+        nom:"Developpeur Integrateur de Solutions Intranet Internet",
         year:"2023",
         place:"ESCCI",
         id:"1",
