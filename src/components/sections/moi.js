@@ -9,7 +9,7 @@ export default function Moi() {
     <div id="moi">
                     <h2>A propos de moi</h2>
                     <h3>Mes diplomes</h3>
-                    <div>{/* liste des formation que j'ai effectuer */}
+                    <div id="degree">{/* liste des formation que j'ai effectuer */}
                         {
                             DataFormations.map((item)=>(
                                 <CardFormation
