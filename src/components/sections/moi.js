@@ -22,7 +22,7 @@ export default function Moi() {
                         }
                     </div>
                     <h3 className="mt-12 mb-2">Mes partenariats</h3>{/* liste des entreprise avec lesquels j'ai deja travailler */}
-                    <div>
+                    <div id="jobs">
                         {
                             DataEmployement.map((item)=>(
                                 <CardEmploi 
