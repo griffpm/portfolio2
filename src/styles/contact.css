@@ -41,8 +41,6 @@
 
 }
 
-#cc-form{
-    margin: 2rem 1rem;
-    color: #ffffff;
-    width: clamp(300px, 90%, 430px);
+#coordonees{
+    margin: 1rem;
 }
