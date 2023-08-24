@@ -10,6 +10,7 @@
 @import 'moi.css';
 *{
   --color-g: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
